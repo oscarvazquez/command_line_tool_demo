@@ -17,12 +17,12 @@ setup(
     name = "new_html",
     packages = ["new_html"],
     entry_points = {
-        "console_scripts": ['html = new_html.new_html:main']
+        "console_scripts": ['html = new_html.new_html:new_html']
         },
     version = version,
     description = "Python command line html creator",
     long_description = long_descr,
     author = "Oscar Vazquez",
     author_email = "oscar.vazquez2012@gmail.com",
-    url = "",
+    url = "https://github.com/oscarvazquez/command_line_tool_demo"
 )
